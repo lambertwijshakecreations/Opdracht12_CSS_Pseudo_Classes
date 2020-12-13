@@ -1,0 +1,46 @@
+/*opdracht deel 1*/
+.hover a:hover {
+  color: lightblue;
+  font-weight: bolder;
+}
+
+.active a:active {
+  color: red;
+  font-style: italic;
+}
+
+.visited a:visited {
+  color: yellow;
+}
+
+.input input:focus {
+  color: green;
+  font-size: 20px;
+}
+
+/*opdracht deel 2*/
+
+nav {
+  background-color: darkblue;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li + li {
+  margin-left: 50px;
+}
+
+.currentPage {
+  background-color: gray;
+}
+
+nav ul li:hover {
+  background-color: lightblue;
+}
+
+input[id]:focus {
+  outline: none;
+  border-color: aqua;
+}
